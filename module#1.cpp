@@ -3,11 +3,11 @@ using namespace std;
 static int i;
 
 int main(){
-    for(int j=0; j<5; j++)
-        {cout << i <<"\n";
+    for(int j=0; j<5; j++){
+        cout << i <<"\n";
         fun();
         i++;
-        }
+    }
     return 0;
 }
 //output:
@@ -20,5 +20,5 @@ int main(){
 /*
  Static variable is such variable which hold it's previous value remain in the memory.
  Its' default initialization is 0.
-
+ Static allocation of memeory . i.e once memory allocated it doesn't reinitialize.
 */
